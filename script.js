@@ -14,3 +14,21 @@ function startQuiz () {
     document.getElementById("start-screen").classList.add("hide");
     document.getElementById("questions").classList.remove("hide");
 }
+
+showQuestions(); {}
+
+
+function showQuestions() {
+    const currentQuestion = questions[currentQuestionIndex];
+}
+
+questionTitle.textContent = currentQuestion.question;
+
+currentQuestion.choices.forEach(choice => {
+    const button = document.createElement("button");
+    button.textContent = choice;
+    button.classList.add("choice");
+    choices.appendChild(button);
+});
+
+const question = questions[currentQuestionIndex];
