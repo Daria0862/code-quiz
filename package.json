@@ -1,0 +1,25 @@
+{
+  "name": "code-quiz",
+  "version": "1.0.0",
+  "description": "this is my quiz app",
+  "main": "question.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Daria0862/code-quiz.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Tehmeena Chattha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daria0862/code-quiz/issues"
+  },
+  "homepage": "https://github.com/Daria0862/code-quiz#readme",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  }
+}
